@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Gems</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+</head>
+<body>
+
+    <div class= "cont01">
+        ~Crystal Collector~
+    </div>
+    <div id = "bodbod">
+        <div class= "cont02">
+            <p>Instructions:</p>
+            <p>You will be given a random number at the start of the game.</p>            
+            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+            <p>You win the game by matching your total score to random number. You lose the game if your total score goes above the random number.</p>
+            <p>The value of each crystal is hidden from you until you click on it.</p>
+            <p>Each time when the game starts, the game will change the values of each crystal.</p>
+        </div>
+        <div class = "cont06">
+            <p>Won: <span id= "numberWins"></span></p>
+            <p>Lost: <span id= "numberLosses"></span></p>
+        </div>
+        <div class = "cont05">
+            <p>Random Goal: <span id= "randomNumber"></span></p>
+        </div>
+        <div class= "cont03">
+            <p>Total: <span id="finalTotal"></span></p>
+        </div>
+        <div class= "cont04">
+            <img class= "gem" src="assets/images/gem-blu.png" id="one" alt="Blue Gem">
+            <img class= "gem" src="assets/images/gem-grn.png" id="two" alt="Green Gem">
+            <img class= "gem" src="assets/images/gem-pur.png" id="three" alt="Purple Gem">
+            <img class= "gem" src="assets/images/gem-ylw.png" id="four" alt="Yellow Gem">
+        </div>
+    </div>
+
+    <!-- Footer -->      
+    <nav class="navbar fixed-bottom navbar-light" style="background-color: #666666;">
+            <a class="navbar-footer" >
+                  <a class="foot-link" href="../../portfolio/index.html">Home</a>
+                  <a class="foot-link" href="../../portfolio/portfolio.html">Portfolio</a>
+                  <a class="foot-link" href="../../portfolio/contact.html">Contact</a>
+            </a>
+          </nav>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
