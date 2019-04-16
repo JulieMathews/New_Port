@@ -5,6 +5,14 @@ body {
 
 /* #BE6227  for banners */
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  margin-top: 10px;
+}
+
 .navbar-brand:after {
     clear: both;
   }
