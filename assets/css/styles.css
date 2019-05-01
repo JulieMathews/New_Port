@@ -30,6 +30,8 @@
 .post-content {
     bottom: 2em;
     position: relative;
+    justify-content: space-between
+
 }
 
 a:link,
@@ -37,7 +39,7 @@ a:visited,
 a:hover {
     text-decoration: none;
     color: #ffffff;
-  }
+}
 
 .foot-link {
     align-content: left;
