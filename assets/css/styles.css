@@ -89,7 +89,7 @@ a:hover {
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-    font-size: 20px;
+    color: #6287a2;
     margin-top: 20px;
   }
   
@@ -178,4 +178,3 @@ a:hover {
     max-height: 100%;
 	margin-bottom: 5px;
 }
-
